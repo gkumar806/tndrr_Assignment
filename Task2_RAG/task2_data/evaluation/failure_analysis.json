@@ -1,0 +1,20 @@
+[
+    {
+        "question": 6,
+        "topic": "Decision trees",
+        "issue": "With 200-word chunks, an ensemble-learning passage ranked above the relevant decision-tree passage.",
+        "improvement": "Use heading-aware chunking and combine semantic retrieval with BM25 keyword retrieval."
+    },
+    {
+        "question": 14,
+        "topic": "Manifold learning",
+        "issue": "A passage containing unrelated lyric-like text received a high similarity score.",
+        "improvement": "Improve HTML extraction by retaining main article content and removing irrelevant text."
+    },
+    {
+        "question": 15,
+        "topic": "Isolation Forest",
+        "issue": "Some highly ranked passages discussed general outlier detection or references rather than directly explaining Isolation Forest.",
+        "improvement": "Use more specific queries and a cross-encoder reranker to improve passage relevance."
+    }
+]

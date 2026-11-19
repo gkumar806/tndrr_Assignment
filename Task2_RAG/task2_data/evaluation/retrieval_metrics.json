@@ -1,0 +1,95 @@
+{
+    "dataset": "Scikit-learn User Guide",
+    "total_questions": 15,
+    "metrics": {
+        "200_word_chunks": {
+            "Recall@1": 0.9333333333333333,
+            "Recall@3": 1.0,
+            "Recall@5": 1.0,
+            "MRR": 0.9666666666666667
+        },
+        "500_word_chunks": {
+            "Recall@1": 1.0,
+            "Recall@3": 1.0,
+            "Recall@5": 1.0,
+            "MRR": 1.0
+        }
+    },
+    "question_wise_ranks": [
+        {
+            "question": "What is the purpose of linear regression?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "How does logistic regression perform classification?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is the main idea behind Support Vector Machines?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "How does the nearest neighbors algorithm make predictions?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is the basic assumption of the Naive Bayes classifier?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "How does a decision tree select a feature for splitting?",
+            "200_word_rank": 2,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is the difference between bagging and boosting?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is feature selection and why is it useful?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is semi-supervised learning?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "Why is probability calibration useful in classification?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is a Multi-layer Perceptron (MLP), and how can it be used for classification or regression?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is clustering and what is its purpose?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is a Gaussian mixture model?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "What is manifold learning used for?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        },
+        {
+            "question": "How does Isolation Forest help detect outliers?",
+            "200_word_rank": 1,
+            "500_word_rank": 1
+        }
+    ]
+}

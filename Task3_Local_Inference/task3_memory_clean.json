@@ -1,0 +1,12 @@
+{
+    "qwen2.5:1.5b-instruct-q4_K_M": {
+        "baseline_mb": 1815,
+        "peak_gpu_memory_mb": 2997,
+        "additional_memory_mb": 1182
+    },
+    "qwen2.5:1.5b-instruct-q8_0": {
+        "baseline_mb": 3,
+        "peak_gpu_memory_mb": 1815,
+        "additional_memory_mb": 1812
+    }
+}

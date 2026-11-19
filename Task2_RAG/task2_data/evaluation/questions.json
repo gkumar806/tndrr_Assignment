@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "question": "What is the purpose of linear regression?",
+        "source": "linear_model.html"
+    },
+    {
+        "id": 2,
+        "question": "How does logistic regression perform classification?",
+        "source": "linear_model.html"
+    },
+    {
+        "id": 3,
+        "question": "What is the main idea behind Support Vector Machines?",
+        "source": "svm.html"
+    },
+    {
+        "id": 4,
+        "question": "How does the nearest neighbors algorithm make predictions?",
+        "source": "neighbors.html"
+    },
+    {
+        "id": 5,
+        "question": "What is the basic assumption of the Naive Bayes classifier?",
+        "source": "naive_bayes.html"
+    },
+    {
+        "id": 6,
+        "question": "How does a decision tree select a feature for splitting?",
+        "source": "tree.html"
+    },
+    {
+        "id": 7,
+        "question": "What is the difference between bagging and boosting?",
+        "source": "ensemble.html"
+    },
+    {
+        "id": 8,
+        "question": "What is feature selection and why is it useful?",
+        "source": "feature_selection.html"
+    },
+    {
+        "id": 9,
+        "question": "What is semi-supervised learning?",
+        "source": "semi_supervised.html"
+    },
+    {
+        "id": 10,
+        "question": "Why is probability calibration useful in classification?",
+        "source": "calibration.html"
+    },
+    {
+        "id": 11,
+        "question": "What is a Multi-layer Perceptron (MLP), and how can it be used for classification or regression?",
+        "source": "neural_networks_supervised.html"
+    },
+    {
+        "id": 12,
+        "question": "What is clustering and what is its purpose?",
+        "source": "clustering.html"
+    },
+    {
+        "id": 13,
+        "question": "What is a Gaussian mixture model?",
+        "source": "mixture.html"
+    },
+    {
+        "id": 14,
+        "question": "What is manifold learning used for?",
+        "source": "manifold.html"
+    },
+    {
+        "id": 15,
+        "question": "How does Isolation Forest help detect outliers?",
+        "source": "outlier_detection.html"
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "model": "Qwen2.5-1.5B-Instruct",
+    "hardware": "NVIDIA Tesla T4 15GB",
+    "test_prompts": 10,
+    "settings": {
+        "temperature": 0,
+        "seed": 42,
+        "max_new_tokens": 120,
+        "context_length": 2048
+    },
+    "results": {
+        "Q4_K_M": {
+            "generated_tokens": 1180,
+            "generation_time_seconds": 8.51,
+            "tokens_per_second": 138.74,
+            "additional_gpu_memory_mb": 1182,
+            "model_size": "986 MB"
+        },
+        "Q8_0": {
+            "generated_tokens": 1153,
+            "generation_time_seconds": 11.43,
+            "tokens_per_second": 100.92,
+            "additional_gpu_memory_mb": 1812,
+            "model_size": "1.6 GB"
+        }
+    },
+    "observations": [
+        "Q4 was approximately 37.5% faster.",
+        "Q4 used approximately 34.8% less additional GPU memory.",
+        "Both models produced broadly comparable answers in manual review."
+    ]
+}

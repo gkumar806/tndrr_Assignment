@@ -1,0 +1,74 @@
+{
+    "method": "Hybrid retrieval + Cross-Encoder",
+    "chunk_size": 200,
+    "candidate_k": 10,
+    "final_top_k": 5,
+    "metrics": {
+        "Recall@1": 1.0,
+        "Recall@3": 1.0,
+        "Recall@5": 1.0,
+        "MRR": 1.0
+    },
+    "question_wise_ranks": [
+        {
+            "question": "What is the purpose of linear regression?",
+            "rank": 1
+        },
+        {
+            "question": "How does logistic regression perform classification?",
+            "rank": 1
+        },
+        {
+            "question": "What is the main idea behind Support Vector Machines?",
+            "rank": 1
+        },
+        {
+            "question": "How does the nearest neighbors algorithm make predictions?",
+            "rank": 1
+        },
+        {
+            "question": "What is the basic assumption of the Naive Bayes classifier?",
+            "rank": 1
+        },
+        {
+            "question": "How does a decision tree select a feature for splitting?",
+            "rank": 1
+        },
+        {
+            "question": "What is the difference between bagging and boosting?",
+            "rank": 1
+        },
+        {
+            "question": "What is feature selection and why is it useful?",
+            "rank": 1
+        },
+        {
+            "question": "What is semi-supervised learning?",
+            "rank": 1
+        },
+        {
+            "question": "Why is probability calibration useful in classification?",
+            "rank": 1
+        },
+        {
+            "question": "What is a Multi-layer Perceptron (MLP), and how can it be used for classification or regression?",
+            "rank": 1
+        },
+        {
+            "question": "What is clustering and what is its purpose?",
+            "rank": 1
+        },
+        {
+            "question": "What is a Gaussian mixture model?",
+            "rank": 1
+        },
+        {
+            "question": "What is manifold learning used for?",
+            "rank": 1
+        },
+        {
+            "question": "How does Isolation Forest help detect outliers?",
+            "rank": 1
+        }
+    ]
+}
